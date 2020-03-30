@@ -11,7 +11,8 @@
 	<packaging>pom</packaging>
 
 	<modules>
-
+		<module>java-agent-demo</module>
+		<module>java-design-patterns</module>
 	</modules>
 
 
