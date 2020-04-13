@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.flycun.patterns.handler.chain.v1</OriginalElement>
+  <nodes>
+    <node x="0.0" y="233.0">com.flycun.patterns.handler.chain.v1.Application</node>
+    <node x="0.0" y="157.0">com.flycun.patterns.handler.chain.v1.HandlerChain</node>
+    <node x="70.0" y="0.0">com.flycun.patterns.handler.chain.v1.Handler</node>
+    <node x="0.0" y="81.0">com.flycun.patterns.handler.chain.v1.HandlerA</node>
+    <node x="132.0" y="81.0">com.flycun.patterns.handler.chain.v1.HandlerB</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.flycun.patterns.handler.chain.v1.HandlerA" target="com.flycun.patterns.handler.chain.v1.Handler">
+      <point x="0.0" y="-15.5" />
+      <point x="56.0" y="56.0" />
+      <point x="96.0" y="56.0" />
+      <point x="-26.0" y="15.5" />
+    </edge>
+    <edge source="com.flycun.patterns.handler.chain.v1.HandlerB" target="com.flycun.patterns.handler.chain.v1.Handler">
+      <point x="0.0" y="-15.5" />
+      <point x="188.0" y="56.0" />
+      <point x="148.0" y="56.0" />
+      <point x="26.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="283.0" y="132.0" />
+  <SelectedNodes>
+    <node>com.flycun.patterns.handler.chain.v1.Application</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
