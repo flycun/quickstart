@@ -1,4 +1,4 @@
-package com.flycun.patterns.extractor;
+package com.flycun.patterns.visitor.v1;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,9 +20,15 @@ public class ToolApplication {
 //            extractor.extract2txt(resourceFile);
 //        }
 
+      /**
+       * 根据多态特性，程序会调用实际类型的 accept 函数，比如 PdfFile 的 accept 函数，
+       * 也就是PdfFile第 11 行代码。而 11 行代码中的 this 类型是 PdfFile 的，在编译的时候就确定了，所以会调用 extractor 的 extract2txt(PdfFile pdfFile) 这个重载函数。
+       * 这个实现思路是不是很有技巧
+       */
         for (ResourceFile resourceFile : resourceFiles) {
             resourceFile.accept(extractor);
         }
+
     }
 
     private static List<ResourceFile> listAllResourceFiles(String resourceDirectory) {

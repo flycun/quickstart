@@ -1,4 +1,4 @@
-package com.flycun.patterns.extractor;
+package com.flycun.patterns.visitor.v1;
 
 public class WordFile extends ResourceFile {
   public WordFile(String filePath) {

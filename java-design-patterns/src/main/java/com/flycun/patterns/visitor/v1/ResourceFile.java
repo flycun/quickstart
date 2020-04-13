@@ -1,4 +1,4 @@
-package com.flycun.patterns.extractor;
+package com.flycun.patterns.visitor.v1;
 
 public abstract class ResourceFile {
   protected String filePath;

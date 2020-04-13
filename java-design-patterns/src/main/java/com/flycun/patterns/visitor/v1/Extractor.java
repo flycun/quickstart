@@ -1,4 +1,4 @@
-package com.flycun.patterns.extractor;
+package com.flycun.patterns.visitor.v1;
 
 //...PPTFile、WordFile代码省略...
 public class Extractor {
