@@ -16,9 +16,9 @@ public class ToolApplication {
          * resourceFiles 包含的对象的声明类型都是 ResourceFile，而我们并没有在 Extractor 类中定义参数类型是 ResourceFile 的 extract2txt() 重载函数，
          * 所以在编译阶段就通过不了，更别说在运行时根据对象的实际类型执行不同的重载函数了
          */
-//        for (ResourceFile resourceFile : resourceFiles) {
+        for (ResourceFile resourceFile : resourceFiles) {
 //            extractor.extract2txt(resourceFile);
-//        }
+        }
 
       /**
        * 根据多态特性，程序会调用实际类型的 accept 函数，比如 PdfFile 的 accept 函数，
