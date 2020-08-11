@@ -13,6 +13,7 @@
 	<modules>
 		<module>java-agent-demo</module>
 		<module>java-design-patterns</module>
+		<module>concurrency-samples</module>
 	</modules>
 
 
